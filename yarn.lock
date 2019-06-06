@@ -1701,7 +1701,7 @@
     npmlog "^4.1.2"
     write-file-atomic "^2.3.0"
 
-"@material-ui/core@^4.0.1", "@material-ui/core@^4.0.2":
+"@material-ui/core@^4.0.2":
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/@material-ui/core/-/core-4.0.2.tgz#c7a07c1d1b13b94adf479d7267b51cb682fcb279"
   integrity sha512-k7o95UIupTp14lsO9hejmswuPZsmWUafOBNaptHN+Pv8CBp/vW+hD6peuThgUpeGesrCuL2/yTpHB/9JkO9rNg==
@@ -4292,7 +4292,7 @@ debug@3.1.0:
   dependencies:
     ms "2.0.0"
 
-debug@^3.0.0, debug@^3.1.0, debug@^3.2.5, debug@^3.2.6:
+debug@^3.1.0, debug@^3.2.5, debug@^3.2.6:
   version "3.2.6"
   resolved "https://registry.yarnpkg.com/debug/-/debug-3.2.6.tgz#e83d17de16d8a7efb7717edbe5fb10135eee629b"
   integrity sha512-mel+jf7nrtEl5Pn1Qx46zARXKDpBbvzezse7p7LqINmdoIk8PYP5SySaxEmYv6TZ0JyEKA1hsCId6DIhgITtWQ==
@@ -5152,7 +5152,7 @@ eslint-watch@5.1.2:
     optionator "^0.8.2"
     source-map-support "^0.5.9"
 
-eslint@5.16.0, eslint@^5.16.0:
+eslint@^5.16.0:
   version "5.16.0"
   resolved "https://registry.yarnpkg.com/eslint/-/eslint-5.16.0.tgz#a1e3ac1aae4a3fbd8296fcf8f7ab7314cbb6abea"
   integrity sha512-S3Rz11i7c8AA5JPv7xAH+dOyq/Cu/VXHiHXBPOU1k/JAM5dXqQPt3qcrhpHSorXmrpu2g0gkIBVXAqCpzfoZIg==
@@ -10963,7 +10963,7 @@ rc@^1.0.1, rc@^1.1.6, rc@^1.2.7, rc@^1.2.8, rc@~1.2.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-react-dom@16.8.6, react-dom@^16.8.6:
+react-dom@^16.8.6:
   version "16.8.6"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.8.6.tgz#71d6303f631e8b0097f56165ef608f051ff6e10f"
   integrity sha512-1nL7PIq9LTL3fthPqwkvr2zY7phIPjYrT0jp4HjyEQrEROnw4dG41VVwi/wfoCneoleqrNX7iAD+pXebJZwrwA==
@@ -11056,7 +11056,7 @@ react-transition-group@^4.0.0:
     loose-envify "^1.4.0"
     prop-types "^15.6.2"
 
-react@16.8.6, react@^16.8.6:
+react@^16.8.6:
   version "16.8.6"
   resolved "https://registry.yarnpkg.com/react/-/react-16.8.6.tgz#ad6c3a9614fd3a4e9ef51117f54d888da01f2bbe"
   integrity sha512-pC0uMkhLaHm11ZSJULfOBqV4tIZkx87ZLvbbQYunNixAAvjnC+snJCg0XQXn9VIsttVsbZP/H/ewzgsd5fxKXw==
@@ -12216,8 +12216,8 @@ staged-git-files@1.1.2:
   integrity sha512-0Eyrk6uXW6tg9PYkhi/V/J4zHp33aNyi2hOCmhFLqLTIhbgqWn5jlSzI+IU0VqrZq6+DbHcabQl/WP6P3BG0QA==
 
 starforge@ampush/starforge#master:
-  version "0.1.0"
-  resolved "git+ssh://git@github.com/ampush/starforge.git#b3be9db73544fc5725af07874e420eed095bc983"
+  version "0.0.0"
+  resolved "git+ssh://git@github.com/ampush/starforge.git#621472070fc4af6b6c1277be24e1ed91b8fea9c0"
   dependencies:
     "@babel/core" "7.4.5"
     "@babel/node" "^7.4.5"
@@ -12240,7 +12240,7 @@ starforge@ampush/starforge#master:
     "@babel/preset-react" "7.0.0"
     "@babel/register" "7.4.4"
     "@babel/runtime" "7.4.5"
-    "@material-ui/core" "^4.0.1"
+    "@material-ui/core" "^4.0.2"
     "@material-ui/styles" "^4.0.1"
     aws-sdk "^2.467.0"
     babel-core "7.0.0-bridge.0"
@@ -12260,10 +12260,10 @@ starforge@ampush/starforge#master:
     core-js "3"
     cross-env "5.2.0"
     css-loader "2.1.1"
-    debug "^3.0.0"
+    debug "^4.1.1"
     enzyme "3.9.0"
     enzyme-adapter-react-16 "1.13.2"
-    eslint "5.16.0"
+    eslint "^5.16.0"
     eslint-config-airbnb "17.1.0"
     eslint-config-prettier "4.3.0"
     eslint-loader "2.1.2"
@@ -12294,8 +12294,8 @@ starforge@ampush/starforge#master:
     prettier "1.17.1"
     pretty-quick "1.11.0"
     prop-types "15.7.2"
-    react "16.8.6"
-    react-dom "16.8.6"
+    react "^16.8.6"
+    react-dom "^16.8.6"
     react-helmet "^5.2.1"
     react-hot-loader "4.9.0"
     react-loadable "^5.5.0"

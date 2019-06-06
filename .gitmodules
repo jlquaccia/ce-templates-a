@@ -1,0 +1,6 @@
+[submodule "starforge"]
+	path = starforge
+	url = git@github.com:ampush/starforge.git
+[submodule "starship"]
+	path = starship
+	url = git@github.com:ampush/starship.git
